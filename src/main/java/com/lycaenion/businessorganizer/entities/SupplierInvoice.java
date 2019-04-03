@@ -19,7 +19,7 @@ public class SupplierInvoice {
     @NotNull
     private String supplier;
 
-    private String OCR;
+    private String ocr;
     private String message;
     private boolean isPaid;
 
@@ -63,12 +63,12 @@ public class SupplierInvoice {
         this.supplier = supplier;
     }
 
-    public String getOCR() {
-        return OCR;
+    public String getOcr() {
+        return ocr;
     }
 
-    public void setOCR(String OCR) {
-        this.OCR = OCR;
+    public void setOCR(String ocr) {
+        this.ocr = ocr;
     }
 
     public String getMessage() {
