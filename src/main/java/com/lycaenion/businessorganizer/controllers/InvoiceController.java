@@ -21,7 +21,7 @@ public class InvoiceController {
     }
 
     @RequestMapping("/changeToPaid")
-    private ResponseEntity<String> changeInvoiceToPaid(@RequestBody int id){
+    private ResponseEntity<String> changeInvoiceStatus(@RequestBody int id){
         return null;
     }
 
