@@ -21,7 +21,6 @@ public class SupplierInvoice {
 
     private String ocr;
     private String message;
-    private boolean isPaid;
 
     public long getSupplierInvoiceId() {
         return supplierInvoiceId;
@@ -79,11 +78,4 @@ public class SupplierInvoice {
         this.message = message;
     }
 
-    public boolean isPaid() {
-        return isPaid;
-    }
-
-    public void setPaid(boolean paid) {
-        isPaid = paid;
-    }
 }
